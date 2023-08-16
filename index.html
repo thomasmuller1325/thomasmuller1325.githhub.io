@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddaf7;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+        <center>
+    	<p style="font-size: 400%;font-family:impact">SOCCER</p>
+        <ul>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">EPL</a>
+            <div class="dropdown-content">
+              <a href="file:///C:/Users/James/Desktop/James%20css2/epl%20ranking.html">ranking</a>
+              <a href="file:///C:/Users/James/Desktop/James%20css2/EPL%20highlight.html">highlight</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Budesliga</a>
+            <div class="dropdown-content">
+              <a href="file:///C:/Users/James/Desktop/James%20css2/budesliga%20ranking.html">ranking</a>
+              <a href="#">highlight</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">La Liga</a>
+            <div class="dropdown-content">
+              <a href="file:///C:/Users/James/Desktop/James%20css2/La%20Liga%20ranking.html">ranking</a>
+              <a href="#">highlight</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Series A</a>
+            <div class="dropdown-content">
+              <a href="file:///C:/Users/James/Desktop/James%20css2/Series%20A%20ranking.html">ranking</a>
+              <a href="#">highlight</a>
+            </div>
+           </li>
+           <li class="dropdown">
+             <a href="javascript:void(0)" class="dropbtn">Ligue 1</a>
+             <div class="dropdown-content">
+              <a href="file:///C:/Users/James/Desktop/James%20css2/Series%20A%20ranking.html">ranking</a>
+              <a href="#">highlight</a>
+             </div>
+            </li>
+        </ul>
+        <hr>
+        <img src="fc bayern.jpg" height="600px" width="941px">
+        <h1 style="text-shadow:-5px -3px 1px yellow;color:red;background-color:white;"><b>HEADLINES</b></h1>
+        <h2>FC Bayern won the championship</h2>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3M6hR07EttM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3><i>latest transfer news and ten top transfers</i></
+        h3>
+        <ol>
+            <li>Messi to Inter Miami</li><br>
+            <li>Bellingham to Real Madrid</li><br>
+            <li>Nkunku to Chelsea</li><br>
+            <li>Havertz to Arsenal</li><br>
+            <li>Rice to Arsenal</li><br>
+            <li>Kane to Bayern</li><br>
+            <li>Caicedo to Chelsea</li><br>
+            <li>Mac Allister to Liverpool</li><br>
+            <li>Kim to Bayern</li><br>
+            <li>Neymar to Al Hilal</li><br>
+        </ol>
+        <br>
+        <a href="https://twitter.com/FabrizioRomano">Click to see more transfers news</a>
+        <hr>
+        <a href="https://twitter.com/gianluigibuffon/status/1686727431887933440"><img src="buffon.jpg" height="375px" width="300px"></a>
+        <h3>↑Click to see the official announcement<br>Legendary Italian goalkeeper Buffon announced retirement</h3>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eUqkibPzW3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3>↑<br>FC24 trailer released.EA will release their game on 9.29</h3>
+        <hr>
+        <h3><a href="https://www.youtube.com/@ESPNFC">Click to see more latest information about soccer</a></h3>
+        <hr>
+        <h4>a short survey for better experience</h4>
+        <form action='123.php' style="border: 1px solid black; width: 30%;" >
+        <label for="name">Name:</label>
+        <input type="text" name="name"><br>
+
+        <label for='dob'>Date of Birth:</label>
+        <input type="date" name='dob'><br>
+
+        <label for='color'>your favourite background color:</label>
+        <input type="color" name='color'><br>
+
+        <label for='leagues'>favourite league:</label>
+        <input type="radio" name='leagues'>
+        <label for='EPL'>EPL</label>
+        <input type="radio" name='leagues'>
+        <label for='Budesliga'>Budesliga</label>
+        <input type="radio" name='leagues'>
+        <label for='La Liga'>La Liga</label><br>
+        <input type="radio" name='leagues'>
+        <label for='Series A'>Series A</label>
+        <input type="radio" name='leagues'>
+        <label for='Ligue 1'>Ligue 1</label><br>
+
+        <label for='team'>favourite team:</label>
+        <input type='text' name='team' maxlength="10"><br>
+
+        <label for='player'>favourite player:</label>
+        <input type='text' name='player' maxlength="30"><br>
+
+        <label for='option'>what you want to see:</label>
+        <select name='option'>
+            <option value='result'>results and highlights</option>
+            <option value='live streaming'>live streaming</option>
+            <option value='ranking'>ranking</option>
+        </select><br>
+
+        <label for='option'>would you like to share your date:</label>
+        <select name='option'>
+            <option value='yes'>yes</option>
+            <option value='no'>no</option>
+        </select><br>
+
+        <label for='option'>which ways do you know our website:</label>
+        <select name='option'>
+            <option value='friend'>friend or your family</option>
+            <option value='advertisement'>advertisement</option>
+            <option value='search'>search engine</option>
+        </select><br>
+
+        <input type="submit">
+    </form>
+        </center>
+</body>
+</html>
